@@ -1,0 +1,21 @@
+ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+.container-c {
+  width: 80%;
+  margin: 0 auto;
+}
+#center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #122117;
+  width: 300px;
+  height: 350px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}

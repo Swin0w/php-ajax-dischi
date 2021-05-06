@@ -8,7 +8,7 @@ function init() {
       axios.get('config/data.php')
       .then (data => {
         console.log("Contenuto PHP: ", data);
-        this.disc = data;
+        this.disc = data.data;
         console.log("Contenuto dentro array DISC di JS: ", this.disc);
       })
     }
