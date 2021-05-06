@@ -9,13 +9,28 @@ ul li {
 #center {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .card {
   background-color: #122117;
-  width: 300px;
-  height: 350px;
+  width: 320px;
   margin-right: 30px;
   margin-bottom: 30px;
   border-radius: 20px;
+  text-align: center;
+  padding: 10px 0;
+}
+.card img {
+  width: 200px;
+  height: 200px;
+}
+.card h1 {
+  color: white;
+  font-size: 16pt;
+}
+.card h2 {
+  color: white;
+  font-size: 14pt;
+}
+.card span {
+  color: white;
 }

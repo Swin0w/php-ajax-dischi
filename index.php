@@ -18,6 +18,8 @@
             <div class="card">
               <img :src="elem.poster" alt="">
               <h1>{{elem.title}}</h1>
+              <h2>{{elem.author}}</h2>
+              <span>{{elem.year}}</span>
             </div>
           </li>
         </ul>
